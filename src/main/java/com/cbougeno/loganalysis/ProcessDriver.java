@@ -32,7 +32,7 @@ public class ProcessDriver extends Configured {
 //        job.setMapOutputValueClass(IntWritable.class);
 //        job.setOutputKeyClass(Text.class);
 //        job.setOutputValueClass(IntWritable.class);
-        
+
         boolean success = job.waitForCompletion(true);
         System.exit(success ? 0 : 1);
 
